@@ -779,6 +779,11 @@ input:focus { outline: 0; }
 	position: relative;
 }
 
+#rightSide * {
+	pointer-events: none;
+	user-select: none;
+}
+
 .counter {
 	background-color: var(--blue2);
 	color: white;
@@ -1342,4 +1347,12 @@ input:focus { outline: 0; }
 
 .itemIncrDrec {
 	display: none;
+}
+
+#selectionBtns,
+#increaseBtns,
+#importSelection {
+	pointer-events: none;
+	user-select: none;
+	filter: brightness(0.7);
 }
