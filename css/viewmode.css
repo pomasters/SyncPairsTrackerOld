@@ -1,0 +1,82 @@
+#selectionBtns,
+#increaseBtns,
+#fullSelection,
+#resetSelection,
+#invertSelection,
+#increaseSyncStar,
+#increaseSyncLevel,
+#increaseFavorite,
+#lockMode,
+#editOrderMode,
+#sortByCustom,
+#exportSelection,
+#importSelection,
+#exportImportBtns {
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	user-select: none !important;
+	filter: opacity(32%);
+}
+
+#selectionOptions,
+#increaseOptions,
+#exportImportDiv { display: none; }
+
+#viewMode {
+	border: 2px solid #7a7710 !important;
+	background-image: url(../images/view2.png) !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-color: #F1E57D !important;
+	filter: none;
+}
+
+#pairsCounterFound,
+#pairsCounterSelected,
+#pairsCounterTotal:empty,
+.syncStar,
+.syncFav,
+.syncLevel {
+	display: none !important;
+}
+
+#pairsCounterFoundTotal { margin-left: auto; }
+#pairsCounterTotal { display: block; }
+
+.syncPair {
+	opacity: 1 !important;
+}
+
+.syncImages img {
+	display: none !important;
+}
+
+.syncImages img:first-child {
+	display: block !important;
+}
+
+.syncImages:hover img:first-child {
+	display: none !important;
+}
+
+.syncImages:hover img:last-child {
+	display: block !important;
+}
+
+.syncPair:hover > .syncInfos {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: space-between !important;
+}
+
+@media only screen and (max-width: 1024px) {
+	.syncPair:hover > .syncInfos {
+		display: none !important;
+	}
+
+	#viewMode {
+		border: 1.2px solid #7a7710 !important;
+	}
+}
