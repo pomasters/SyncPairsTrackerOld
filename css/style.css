@@ -18,6 +18,26 @@
 }
 */
 
+
+#selectionBtns,
+#increaseBtns,
+#importSelection {
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	user-select: none !important;
+	filter: opacity(32%);
+}
+
+.syncPair {
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	user-select: none !important;
+	filter: grayscale(80%);
+}
+
+
 :root{
 	--blue1: #32788C;
 	--blue2: #48899A;
