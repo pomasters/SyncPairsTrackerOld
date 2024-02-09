@@ -1,5 +1,33 @@
 export const NEWS = [
 	{
+		"date": "2024-01-29",
+		"info" : "Add v2.41.0"
+	},
+	{
+		"date": "2023-12-26",
+		"info" : "Add v2.40.0"
+	},
+	{
+		"date": "2023-11-28",
+		"info" : "Add v2.39.0"
+	},
+	{
+		"date": "2023-10-27",
+		"info" : "Add v2.38.0"
+	},
+	{
+		"date": "2023-09-27",
+		"info" : "Add v2.37.0"
+	},
+	{
+		"date": "2023-09-06",
+		"info" : "Add sort option : acquisition "
+	},
+	{
+		"date": "2023-08-28",
+		"info" : "Add EX Roles"
+	},
+	{
 		"date": "2023-08-24",
 		"info" : "Add v2.36.0"
 	},
