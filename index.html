@@ -112,8 +112,10 @@
 						<button type="button" class="btn" data-asc="false" id="sortBySelected">Possession</button>
 						<button type="button" class="btn" data-asc="false" id="sortByFavorite">Heart Icon</button>
 						<button type="button" class="btn" data-asc="true" id="sortByAcquisition">Acquisition</button>
-						<div>
+						<button type="button" class="btn" data-asc="true" id="sortByRoleEX">EX Role</button>
+						<div id="separatorsOptions">
 							<div class="checkboxOption"><input type="checkbox"id="showSeparator"><label for="showSeparator">Show separators</label></div>
+							<div class="checkboxOption hide" id="hideEmptySeparatorsParentDiv"><input type="checkbox"id="hideEmptySeparators"><label for="hideEmptySeparators">Hide when empty</label></div>
 						</div>
 						<div id="separateByDateOptions" class="hide">
 							<p>Separate by</p>
@@ -151,7 +153,7 @@
 							</div>
 						</div>
 
-						<div class="buttonGroup">
+						<div class="buttonGroup groupClose">
 							<div class="buttonGroupTitle">Number of ★s / Move Level<img class="extendedIcon" src="images/bottomArrow.png"></div>
 							<div class="group6inLine">
 								<button type="button" class="btn syncUserBtnStar" value='data-currentstar="1"'>&nbsp;<img src="images/star1.png"></button>
@@ -177,7 +179,7 @@
 						<input type="button" class="btn" id="btnDate" value="Filter">
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Initial Number of ★s<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<div class="group6inLine">
 							<button type="button" class="btn starBtn filterStar" value='"infoSyncPairRarity">1'>&nbsp;<img src="images/star1.png"></button>
@@ -189,7 +191,7 @@
 						</div>
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Type<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<button type="button" class="btn filterType" value='"infoPokemonType">normal'><img src="images/type_normal.png">Normal</button>
 						<button type="button" class="btn filterType" value='"infoPokemonType">fire'><img src="images/type_fire.png">Fire</button>
@@ -233,7 +235,7 @@
 						<button type="button" class="btn filterWeak" value='"infoPokemonWeak">fairy'><img src="images/type_fairy.png">Fairy</button>
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Role<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<button type="button" class="btn filterRole" value='infoSyncPairRole">Strike'><img src="images/role_strike.png">Strike</button>
 						<button type="button" class="btn filterRole" value='infoSyncPairRole">Tech'><img src="images/role_tech.png">Tech</button>
@@ -242,7 +244,7 @@
 						<button type="button" class="btn filterRole" value='infoSyncPairRole">Field'><img src="images/role_field.png">Field</button>
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">EX Role<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<button type="button" class="btn filterRole" value='infoSyncPairRoleEX">Strike'><img src="images/role_ex_strike.png">Strike</button>
 						<button type="button" class="btn filterRole" value='infoSyncPairRoleEX">Tech'><img src="images/role_ex_tech.png">Tech</button>
@@ -252,7 +254,7 @@
 						<button type="button" class="btn filterRole" value='src="images/role_ex_'>Has EX Role</button>
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Region<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Kanto'>Kanto</button>
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Johto'>Johto</button>
@@ -267,7 +269,7 @@
 						<button type="button" class="btn filterRegion" value='"infoSyncPairRegion">Pasio'>Pasio</button>
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Trainer/Pokémon<img class="extendedIcon" src="images/bottomArrow.png"></div>
 
 						<input spellcheck="false" type="input" id="search" placeholder="Search Trainer/Pokémon..."><br>
@@ -304,7 +306,7 @@
 						<button type="button" class="btn" value='GridExpansion'>Retroactive<span class="tooltiptext">Retroactive expansion</span></button>
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Acquisition<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<button type="button" class="btn" value='General Pool'><img src="images/icon_genpool.png">Gen Pool</button>
 						<button type="button" class="btn" value='Poké Fair'><img src="images/icon_pokefair.png">Poké Fair</button>
@@ -320,7 +322,7 @@
 						<button type="button" class="btn" value='Mix Scout'>Mix</button>
 					</div>
 
-					<div class="buttonGroup">
+					<div class="buttonGroup groupClose">
 						<div class="buttonGroupTitle">Other<img class="extendedIcon" src="images/bottomArrow.png"></div>
 						<button type="button" class="btn" value='Mega Evolution'><img src="images/icon_mega.png">Mega</button>
 						<button type="button" class="btn" value='Dynamax'><img src="images/icon_dynamax.png">Dynamax</button>
@@ -471,6 +473,6 @@
 <script type="text/javascript" src="js/lib/html2canvas.min.js"></script>
 <script type="text/javascript" src="js/lib/tinysort.min.js"></script>
 <script type="text/javascript" src="js/lib/long-press-event.min.js"></script>
-<script type="module" src="js/script.js?v=20230906"></script>
+<script type="module" src="js/script.js?v=20240131"></script>
 
 </html>

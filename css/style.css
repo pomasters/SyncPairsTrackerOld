@@ -21,7 +21,15 @@
 
 #selectionBtns,
 #increaseBtns,
-#importSelection {
+#importSelection,
+#visibilityBtns,
+#showSorting,
+#takeScreenshot,
+#takeScreenshot2,
+#lockMode,
+#viewMode,
+#filterMode,
+#removeFilters {
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
@@ -29,12 +37,12 @@
 	filter: opacity(32%);
 }
 
-.syncPair {
+#news, #filters, #items, .syncPair {
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	user-select: none !important;
-	filter: grayscale(80%);
+	filter: grayscale(50%);
 }
 
 
@@ -1266,11 +1274,9 @@ input:focus { outline: 0; }
 	display: none !important;
 }
 
-#showSeparator {
+#separatorsOptions {
+	display: flex;
 	margin-top: 15px;
-}
-#showSeparator+label {
-	margin-top: 10px;
 }
 
 .separator {
@@ -1281,6 +1287,7 @@ input:focus { outline: 0; }
 	margin: 5px auto;
 	white-space: nowrap;
 	font-size: 0.9em;
+	min-height: 34px;
 }
 
 .separator img {
