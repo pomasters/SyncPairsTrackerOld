@@ -18,34 +18,6 @@
 }
 */
 
-
-#selectionBtns,
-#increaseBtns,
-#importSelection,
-#visibilityBtns,
-#showSorting,
-#takeScreenshot,
-#takeScreenshot2,
-#lockMode,
-#viewMode,
-#filterMode,
-#removeFilters {
-	pointer-events: none !important;
-	-webkit-touch-callout: none !important;
-	-webkit-user-select: none !important;
-	user-select: none !important;
-	filter: opacity(32%);
-}
-
-#news, #filters, #items, .syncPair {
-	pointer-events: none !important;
-	-webkit-touch-callout: none !important;
-	-webkit-user-select: none !important;
-	user-select: none !important;
-	filter: grayscale(50%);
-}
-
-
 :root{
 	--blue1: #32788C;
 	--blue2: #48899A;
@@ -893,6 +865,7 @@ input:focus { outline: 0; }
 	background-color: rgb(150 200 220 / 40%);
 	padding: 20px;
 	border-radius: 20px;
+	color: var(--blue1);
 }
 
 #syncPairs *::selection { background: transparent; }
@@ -1011,11 +984,11 @@ input:focus { outline: 0; }
 
 .syncLevel {
 	position: absolute;
-	left: 5px;
-	bottom: 5px;
+	left: 4px;
+	bottom: 4px;
 	z-index: 1;
-	width: 25px;
-	height: 25px;
+	width: 24px;
+	height: 24px;
 	display: none;
 }
 
@@ -1034,14 +1007,33 @@ input:focus { outline: 0; }
 	user-select: none !important;
 }
 
-.syncRoleEX {
+.syncRoles {
+	display: flex;
+	flex-direction: column;
 	position: absolute;
+	top: 35px;
+	left: 2px;
+	width: auto !important;
+	height: auto !important;
+	margin: 0;
+}
+
+.syncRole,
+.syncRoleEX {
 	left: 0;
-	top: 36px;
 	z-index: 1;
-	width: 20px;
-	height: 20px;
-	filter: drop-shadow(0px 0px 2px rgb(25 61 88 / 80%));
+	width: 17px;
+	height: 17px;
+	filter: drop-shadow(0px 0px 2px rgb(25 61 88 / 40%));
+}
+
+.syncRole {
+	pointer-events: none !important;
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	user-select: none !important;
+}
+.syncRoleEX {
 }
 
 .syncRoleEX:empty {
@@ -1055,7 +1047,9 @@ input:focus { outline: 0; }
 	display: block;
 }
 
+.syncRole img,
 .syncRoleEX img {
+	position: absolute;
 	width: 100%;
 	pointer-events: none !important;
 	-webkit-touch-callout: none !important;

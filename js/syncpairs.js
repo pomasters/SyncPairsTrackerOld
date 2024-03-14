@@ -126,7 +126,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"Legendary"
+			"Legendary",
+			"Master Passive Teamwork"
 		]
 	},
 	{
@@ -155,7 +156,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"Legendary"
+			"Legendary",
+			"Master Passive Teamwork"
 		]
 	},
 	{
@@ -184,7 +186,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Multiple Units",
-			"Legendary"
+			"Legendary",
+			"Master Passive Teamwork"
 		]
 	},
 	{
@@ -213,7 +216,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
-			"Multiple Units"
+			"Multiple Units",
+			"Master Passive Teamwork"
 		]
 	},
 	{
@@ -941,7 +945,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Villain Arc",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -2626,7 +2631,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Rebuff",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -4275,7 +4282,9 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -4383,7 +4392,8 @@ export const SYNCPAIRS = [
 			"Terrain",
 			"Mythical",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -5027,7 +5037,9 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Starter",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -5438,7 +5450,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Legendary",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -5553,7 +5566,9 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Rebuff",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -5805,7 +5820,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Song Key",
 			"Villain Arc",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -5880,7 +5896,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Wish Zone",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -6139,7 +6156,8 @@ export const SYNCPAIRS = [
 			"Legendary",
 			"Shiny",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -6478,7 +6496,8 @@ export const SYNCPAIRS = [
 			"Buddy Move",
 			"Terrain",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -6517,7 +6536,9 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Rebuff",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -7049,7 +7070,9 @@ export const SYNCPAIRS = [
 			"Multiple Pokemon",
 			"isMan",
 			"Song Key",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -7658,7 +7681,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -7695,7 +7719,9 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"Starter",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -8115,7 +8141,8 @@ export const SYNCPAIRS = [
 			"isWoman",
 			"Legendary",
 			"ZMove",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -8219,7 +8246,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Multiple Units",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -8321,7 +8349,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Legendary",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -8732,11 +8761,14 @@ export const SYNCPAIRS = [
 			"Shiny",
 			"Buddy Move",
 			"Limited",
+			"Wish Zone",
 			"Region Circle",
 			"Multiple Units",
 			"Multiple Pokemon",
 			"isMan",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -9032,7 +9064,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isMan",
 			"Legendary",
-			"Unique Costume"
+			"Unique Costume",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -9726,7 +9759,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Starter",
 			"Song Key",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -10028,7 +10062,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Legendary",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -10612,7 +10648,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Legendary",
-			"Song Key"
+			"Song Key",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -10647,7 +10684,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Weather",
 			"Legendary",
-			"Song Key"
+			"Song Key",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -11023,7 +11061,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Legendary"
+			"Legendary",
+			"Master Passive Teamwork",
 		]
 	},
 	{
@@ -11327,7 +11366,9 @@ export const SYNCPAIRS = [
 			"Wish Zone",
 			"Legendary",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -11747,7 +11788,9 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"Legendary",
 			"Multiple Pokemon",
-			"Unique Costume"
+			"Unique Costume",
+			"Neo Champion",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -11847,7 +11890,8 @@ export const SYNCPAIRS = [
 			"isMan",
 			"Buddy Move",
 			"ZMove",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -11880,7 +11924,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"isWoman",
-			"Legendary"
+			"Legendary",
+			"Master Passive Teamwork"
 		]
 	},
 	{
@@ -12422,7 +12467,8 @@ export const SYNCPAIRS = [
 			"Rebuff",
 			"Hisui",
 			"Eeveelution",
-			"Multiple Pokemon"
+			"Multiple Pokemon",
+			"Master Passive Pride"
 		]
 	},
 	{
@@ -12531,7 +12577,8 @@ export const SYNCPAIRS = [
 			"Multiple Units",
 			"isWoman",
 			"Hisui",
-			"Eeveelution"
+			"Eeveelution",
+			"Master Passive Spirit"
 		]
 	},
 	{
@@ -12846,7 +12893,8 @@ export const SYNCPAIRS = [
 		],
 		"tags": [
 			"Legendary",
-			"isWoman"
+			"isWoman",
+			"Master Passive Teamwork"
 		]
 	},
 	{
@@ -13591,7 +13639,8 @@ export const SYNCPAIRS = [
 			"Limited",
 			"Wish Zone",
 			"isWoman",
-			"Song Key"
+			"Song Key",
+			"Master Passive Flag Bearer"
 		]
 	},
 	{
@@ -13705,15 +13754,21 @@ const P = {
 		"Terrain",
 		"Wish Zone",
 		"Region Circle",
+		"Unique Costume",
 		"Multiple Units",
 		"Multiple Pokemon",
 		"isMan",
 		"isWoman",
 		"Anniversary",
 		"Rebuff",
-		"Z-Move",
+		"ZMove",
 		"Hisui",
-		"Song Key"
+		"Song Key",
+		"Neo Champion",
+		"Master Passive Flag Bearer",
+		"Master Passive Pride",
+		"Master Passive Spirit",
+		"Master Passive Teamwork"
 	]
 }
 
