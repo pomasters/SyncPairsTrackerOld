@@ -28,7 +28,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Grass",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -63,7 +64,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -98,11 +100,48 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg",
 			"Weather"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0012",
+		"pokemonName": "Butterfree",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Caterpie",
+			"Metapod"
+		],
+		"pokemonType": "Bug",
+		"pokemonWeak": "Fire",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-05-27",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0012_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0012_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0012_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0012_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0012_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0012_03a.png"
+		],
+		"themes": [
+			"Bug",
+			"Main Character",
+			"Pasio"
+		],
+		"tags": [
+			"Pokémon Egg"
 		]
 	},
 	{
@@ -134,7 +173,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Bug",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -169,7 +209,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Flying",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -203,7 +244,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -237,7 +279,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Flying",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -271,7 +314,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Poison",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -306,7 +350,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Electric",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -340,7 +385,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ground",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -375,7 +421,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Poison",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -410,7 +457,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Poison",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -445,7 +493,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fairy",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -479,7 +528,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg",
@@ -515,7 +565,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fairy",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -549,7 +600,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Poison",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -584,7 +636,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Grass",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -618,7 +671,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Bug",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -652,7 +706,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Bug",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -686,7 +741,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ground",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -720,7 +776,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -755,7 +812,43 @@ export const EGGS = [
 		],
 		"themes": [
 			"Dark",
-			"Main Character"
+			"Main Character",
+			"Pasio"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0055",
+		"pokemonName": "Golduck",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Psyduck"
+		],
+		"pokemonType": "Water",
+		"pokemonWeak": "Electric",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-03-27",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0055_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0055_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0055_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0055_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0055_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0055_03a.png"
+		],
+		"themes": [
+			"Water",
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -789,7 +882,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fighting",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -823,7 +917,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -858,7 +953,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Psychic",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -893,7 +989,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fighting",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -928,7 +1025,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Grass",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -963,7 +1061,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Rock",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -997,7 +1096,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1031,7 +1131,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Psychic",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1065,7 +1166,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Steel",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1097,7 +1199,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Flying",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1131,7 +1234,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ice",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1165,7 +1269,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Poison",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1199,7 +1304,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1234,7 +1340,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ghost",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1266,7 +1373,43 @@ export const EGGS = [
 		],
 		"themes": [
 			"Rock",
-			"Main Character"
+			"Main Character",
+			"Pasio"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0097",
+		"pokemonName": "Hypno",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Drowzee"
+		],
+		"pokemonType": "Psychic",
+		"pokemonWeak": "Dark",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-03-27",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0097_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0097_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0097_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0097_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0097_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0097_03a.png"
+		],
+		"themes": [
+			"Psychic",
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1300,7 +1443,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Electric",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1334,7 +1478,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Psychic",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1368,7 +1513,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ground",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1400,7 +1546,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fighting",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1432,7 +1579,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fighting",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1464,7 +1612,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1498,7 +1647,43 @@ export const EGGS = [
 		],
 		"themes": [
 			"Poison",
-			"Main Character"
+			"Main Character",
+			"Pasio"
+		],
+		"tags": [
+			"Pokémon Egg"
+		]
+	},
+	{
+		"dexNumber": "001",
+		"trainerName": "Player",
+		"trainerAlt": "",
+		"pokemonNumber": "0112",
+		"pokemonName": "Rhydon",
+		"pokemonGender": "",
+		"pokemonForm": [
+			"Rhyhorn"
+		],
+		"pokemonType": "Ground",
+		"pokemonWeak": "Grass",
+		"syncPairRole": "Strike<>Tech<>Support",
+		"syncPairRoleEX": "",
+		"syncPairRarity": "1",
+		"releaseDate": "2024-07-26",
+		"syncPairAcquisition": "Pokémon Egg",
+		"syncPairRegion": "Pasio",
+		"images": [
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0112_01b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0112_01a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0112_02b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0112_02a.png",
+			"Sync Pairs/0Z_EGGS/FEMALE/Egg_0112_03b.png",
+			"Sync Pairs/0Z_EGGS/MALE/Egg_0112_03a.png"
+		],
+		"themes": [
+			"Ground",
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1532,7 +1717,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1564,7 +1750,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Grass",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1596,7 +1783,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1630,7 +1818,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1664,7 +1853,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1698,7 +1888,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1730,7 +1921,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Bug",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1766,7 +1958,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ice",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1800,7 +1993,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Electric",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1834,7 +2028,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1866,7 +2061,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Bug",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1898,7 +2094,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -1932,7 +2129,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg",
@@ -1965,7 +2163,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ice",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg",
@@ -1994,7 +2193,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2022,7 +2222,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Electric",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2050,7 +2251,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2082,7 +2284,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2116,7 +2319,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Rock",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2150,7 +2354,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Rock",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg",
@@ -2183,7 +2388,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Rock",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2217,7 +2423,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Normal",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2252,7 +2459,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Dragon",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2280,7 +2488,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Psychic",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2308,7 +2517,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Dark",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2340,7 +2550,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fighting",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2368,7 +2579,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Grass",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2396,7 +2608,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Ice",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2424,7 +2637,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fairy",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2456,7 +2670,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Grass",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2488,7 +2703,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2520,7 +2736,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2554,7 +2771,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Steel",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2586,7 +2804,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Grass",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2618,7 +2837,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Fire",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"
@@ -2650,7 +2870,8 @@ export const EGGS = [
 		],
 		"themes": [
 			"Water",
-			"Main Character"
+			"Main Character",
+			"Pasio"
 		],
 		"tags": [
 			"Pokémon Egg"

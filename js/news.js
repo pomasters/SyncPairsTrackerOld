@@ -1,5 +1,49 @@
 export const NEWS = [
 	{
+		"date": "2024-10-29",
+		"info" : "Add v2.50.0\nSuperawakening later"
+	},
+	{
+		"date": "2024-09-26",
+		"info" : "Add v2.49.0"
+	},
+	{
+		"date": "2024-09-26",
+		"info" : "Add dedicated button for sort order"
+	},
+	{
+		"date": "2024-08-26",
+		"info" : "Add v2.48.0"
+	},
+	{
+		"date": "2024-07-29",
+		"info" : "Add v2.47.0"
+	},
+	{
+		"date": "2024-06-26",
+		"info" : "Add v2.46.0"
+	},
+	{
+		"date": "2024-05-29",
+		"info" : "Add v2.45.0"
+	},
+	{
+		"date": "2024-05-22",
+		"info" : "Add role combinations filters"
+	},
+	{
+		"date": "2024-04-26",
+		"info" : "Add v2.44.0"
+	},
+	{
+		"date": "2024-03-27",
+		"info" : "Add v2.43.0"
+	},
+	{
+		"date": "2024-03-14",
+		"info" : "Add ability to track sync grid energy cap"
+	},
+	{
 		"date": "2024-03-04",
 		"info" : "Add ability to show role on sync pair icons"
 	},
