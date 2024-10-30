@@ -1,5 +1,5 @@
-import {SYNCPAIRS, VERSION} from './syncpairs.js';
-import {EGGS} from './eggs.js';
+import {SYNCPAIRS, VERSION} from 'https://pomasters.github.io/SyncPairsTracker/js/syncpairs.js';
+import {EGGS} from 'https://pomasters.github.io/SyncPairsTracker/js/eggs.js';
 import {NEWS} from './news.js';
 import {ITEMS} from './items.js';
 
@@ -675,6 +675,11 @@ function exportSelection() {
 		localStorage.setItem("syncPairsTrackerBackup", JSON.stringify(exported));
 		document.getElementById("exportImportZone").value = JSON.stringify(exported);
 	}
+
+	var visOpt = "";
+	if(localStorage.getItem("visibilityOptions") != null) { visOpt = localStorage.getItem("visibilityOptions"); }
+	localStorage.clear();
+	if(visOpt != "") { localStorage.setItem("visibilityOptions", visOpt); }
 
 	importSelection();
 
@@ -1950,11 +1955,9 @@ document.getElementById("mobileMenuOptions").addEventListener("click", function(
 function generatePairs(pairs) {
 	generatePairsHTML(pairs);
 
-	addSyncPairsEvents();
+	//addSyncPairsEvents();
 
 	addEventBaseImages();
-
-	countSelection();
 
 	removeFilters();
 }
@@ -1968,7 +1971,7 @@ function init() {
 	document.getElementById('date1').valueAsDate = new Date("2019-08-29");
 	document.getElementById('date2').valueAsDate = new Date();
 
-	loadVisibilityFromLocalStorage();
+	//loadVisibilityFromLocalStorage();
 
 	updateNews();
 
