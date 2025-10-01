@@ -26,6 +26,7 @@
 }
 
 .syncRole,
-.buttonGroup *:not(.buttonGroupTitle):not(.buttonGroupTitle2) {
+.buttonGroup *:not(.buttonGroupTitle):not(.buttonGroupTitle2),
+.tabContent {
 	display: none !important;
 }

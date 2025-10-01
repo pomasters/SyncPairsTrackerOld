@@ -1,7 +1,59 @@
 export const NEWS = [
 	{
+		"date": "2025-09-26",
+		"info" : "Add v2.61.0"
+	},
+	{
+		"date": "2025-09-14",
+		"info" : "Change the font & rearrange filter buttons"
+	},
+	{
+		"date": "2025-08-26",
+		"info" : "Add v2.60.0"
+	},
+	{
+		"date": "2025-07-28",
+		"info" : "Add v2.59.0"
+	},
+	{
+		"date": "2025-06-26",
+		"info" : "Add v2.58.0"
+	},
+	{
+		"date": "2025-05-28",
+		"info" : "Add v2.57.0"
+	},
+	{
+		"date": "2025-04-23",
+		"info" : "Add v2.56.0"
+	},
+	{
+		"date": "2025-03-27",
+		"info" : "Add v2.55.0"
+	},
+	{
+		"date": "2025-02-25",
+		"info" : "Add v2.54.0"
+	},
+	{
+		"date": "2025-01-29",
+		"info" : "Add v2.53.0"
+	},
+	{
+		"date": "2024-12-23",
+		"info" : "Add v2.52.0"
+	},
+	{
+		"date": "2024-11-27",
+		"info" : "Add v2.51.0"
+	},
+	{
+		"date": "2024-11-02",
+		"info" : "Add ability to track superawakening level"
+	},
+	{
 		"date": "2024-10-29",
-		"info" : "Add v2.50.0\nSuperawakening later"
+		"info" : "Add v2.50.0"
 	},
 	{
 		"date": "2024-09-26",
